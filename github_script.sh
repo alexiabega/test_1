@@ -10,7 +10,7 @@ fi
 
 if [ "git pull" == "Already up-to-date." ]
 then
-    echo "Nothing to update!"
+    echo "Nothing to update! All set!"
 else
     git pull
     git push mirror
