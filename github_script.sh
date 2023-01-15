@@ -1,4 +1,11 @@
-cd test_1
+if [ -e test_1 ]
+then
+  cd test_1
+else
+  git clone https://github.com/alexiabega/test_1.git
+  cd test_1
+fi
+
 if [ "git pull" == "Already up-to-date." ]
 then
     echo "Nothing to update!"
