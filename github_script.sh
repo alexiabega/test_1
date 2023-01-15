@@ -1,3 +1,5 @@
+#!/bin/bash
+
 if [ -e test_1 ]
 then
   cd test_1
